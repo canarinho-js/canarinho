@@ -1,0 +1,14 @@
+{
+  "name": "canarinho-js",
+  "version": "1.0.0",
+  "description": "Linguagem de programação em português baseada no JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    "Henrique Sangalli (@hsangalli)",
+    "Hildor Júnior (@faberjr)"
+  ],
+  "license": "ISC"
+}
