@@ -1,0 +1,5 @@
+função ola_mundo() {
+  retornar "Olá, mundo!";
+}
+
+ola_mundo();
