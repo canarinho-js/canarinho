@@ -1,10 +1,14 @@
 {
   "name": "canarinho",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Linguagem de programação em português baseada no JavaScript",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/canarinho-js/canarinho.git"
   },
   "contributors": [
     "Henrique Sangalli (@hsangalli)",
