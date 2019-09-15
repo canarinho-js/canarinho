@@ -2,6 +2,29 @@
 
 Linguagem de programação em português baseada no JavaScript
 
+## Instalação
+
+```
+npm install -g canarinho
+```
+
+## Exemplo simples
+
+Suponha que existe um arquivo chamado `exemplo.cnr`, com o seguinte conteúdo:
+```cnr
+imprimir("Olá mundo")
+```
+
+É possível realizar a sua transpilação para JavaScript através do comando abaixo:
+```bash
+$ canarinho exemplo.cnr
+```
+
+Como resultado, o arquivo `exemplo.cnr.js` será criado:
+```js
+console.log("Olá mundo")
+```
+
 ## Manual do transpilador
 
 ```
