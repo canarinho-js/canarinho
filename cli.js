@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var transpilar = require('./codigo_fonte/transpilador').transpilar;
 var transpilar_recursivamente = require('./codigo_fonte/transpilador').transpilar_recursivamente;
 
