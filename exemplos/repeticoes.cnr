@@ -1,0 +1,6 @@
+variável contador = 0
+
+enquanto (contador < 100) {
+  imprimir(contador)
+  contador++
+}

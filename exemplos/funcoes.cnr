@@ -1,0 +1,8 @@
+função adicionar(a, b) {
+  retornar a + b
+}
+
+variável a = 1
+variável b = 2
+
+imprimir("A soma de A com B é igual a " + adicionar(a, b))

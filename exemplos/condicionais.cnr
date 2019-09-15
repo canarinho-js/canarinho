@@ -1,0 +1,25 @@
+variável idade = 21
+
+se (idade < 16) {
+  imprimir("Não pode entrar")
+} ou então (idade >= 16 && idade < 18) {
+  imprimir("Pode entrar acompanhado de responsáveis")
+} senão {
+  imprimir("Pode entrar")
+}
+
+variável fruta = "banana"
+
+verificar (fruta) {
+  caso seja "maçã":
+    imprimir("O preço do quilo é R$ 4")
+    parar
+  caso seja "laranja":
+    imprimir("O preço do quilo é R$ 5")
+    parar
+  caso seja "banana":
+    imprimir("O preço do quilo é R$ 2")
+    parar
+  em caso inesperado:
+    imprimir("Não se sabe o preço da fruta " + fruta)
+}

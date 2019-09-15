@@ -1,0 +1,16 @@
+classe Pessoa {
+  construtor(nome) {
+    instância.nome = nome
+  }
+
+  método falar(frase) {
+    imprimir(instância.nome + ": " + frase)
+  }
+
+  método gritar(frase) {
+    imprimir(instância.nome + ": " + frase.em_maiúsculo())
+  }
+}
+
+variável henrique = instanciar Pessoa("Henrique")
+henrique.gritar("estou atrasado")
