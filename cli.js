@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var transpilar = require('./codigo_fonte/transpilador').transpilar;
-var transpilar_recursivamente = require('./codigo_fonte/transpilador').transpilar_recursivamente;
+var transpilar = require('./codigo_fonte/transpilador_arquivos').transpilar;
+var transpilar_recursivamente = require('./codigo_fonte/transpilador_arquivos').transpilar_recursivamente;
 
 var argumentos = process.argv.slice(2);
 var caminho_relativo = argumentos[argumentos.length - 1];
