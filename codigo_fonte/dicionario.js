@@ -25,3 +25,4 @@ var dicionario = {
 };
 
 module.exports = dicionario;
+
