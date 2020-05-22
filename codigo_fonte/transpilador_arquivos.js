@@ -1,4 +1,5 @@
 var fs = require('fs');
+var traduzir_para_js = require('./transpilador').traduzir_para_js;
 
 function transpilar(arquivo_canarinho) {
   var conteudo = fs.readFileSync(arquivo_canarinho, "utf8");
