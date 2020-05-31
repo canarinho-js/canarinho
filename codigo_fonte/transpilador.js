@@ -1,4 +1,6 @@
 var dicionario = require('./dicionario');
+var fisica = require('./modulos_essenciais/fisica');
+var matematica = require('./modulos_essenciais/matematica');
 
 function traduzir(codigo_fonte, dicionario_base) {
   var codigo_traduzido = codigo_fonte;
@@ -33,5 +35,7 @@ function traduzir_para_canarinho(codigo_em_js) {
 
 module.exports = {
   traduzir_para_js,
-  traduzir_para_canarinho
+  traduzir_para_canarinho,
+  fisica,
+  matematica
 };
