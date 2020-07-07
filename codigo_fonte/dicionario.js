@@ -15,13 +15,28 @@ var dicionario = {
   "em caso inesperado"   : "default",
   "parar"                : "break",
   "enquanto"             : "while",
-  "imprimir"             : "console.log",
   "importar"             : "require",
   "nulo"                 : "null",
   "em_maiúsculo"         : "toUpperCase",
   "em_minúsculo"         : "toLowerCase",
   "verdadeiro"           : "true",
   "falso"                : "false",
+  
+  // Console
+  "imprimir"             : "console.log",
+  "info"                 : "console.info",
+  "erro"                 : "console.error",
+  "aviso"                : "console.warn",
+
+  // Matemática
+  "arredonda"            : "Math.round",
+  "teto"                 : "Math.ceil",
+  "base"                 : "Math.floor",
+  "aleatório"            : "Math.random",
+  "tangente"             : "Math.tan",
+  "seno"                 : "Math.sin",
+  "coseno"               : "Math.cos",
+  "potência"             : "Math.pow",
 };
 
 module.exports = dicionario;
