@@ -1,6 +1,6 @@
 {
   "name": "canarinho",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Linguagem de programação em português baseada no JavaScript",
   "main": "./codigo_fonte/transpilador.js",
   "scripts": {
